@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: az400eshoponweb
   LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: dca61e74-dec0-484e-af6a-6343fdbbf5e2
+  SUBSCRIPTION-ID: 97718e1b-005b-4f7c-9928-1f5b7c4b02d2
   WEBAPP-NAME: az400-webapp-agl4355
 
 
