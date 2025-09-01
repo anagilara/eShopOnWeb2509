@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.eShopWeb.Web.Features.MyOrders;
 using Microsoft.eShopWeb.Web.Features.OrderDetails;
 //test
-
+//test2
 namespace Microsoft.eShopWeb.Web.Controllers;
 
 [ApiExplorerSettings(IgnoreApi = true)]
@@ -26,7 +26,7 @@ public class OrderController : Controller
 
         return View(viewModel);
     }
-
+//test3
     [HttpGet("{orderId}")]
     public async Task<IActionResult> Detail(int orderId)
     {
