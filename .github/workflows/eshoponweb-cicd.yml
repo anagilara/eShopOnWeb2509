@@ -1,7 +1,8 @@
 name: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
-on: [push, workflow_dispatch]
+#on: [push, workflow_dispatch]
+on: workflow_dispatch
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
@@ -9,7 +10,7 @@ env:
   LOCATION: centralus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: ${{ secrets.Subscription }}
-  WEBAPP-NAME: az400-webapp-agl4355
+  WEBAPP-NAME: devops-webapp-centralus-agl
 
 
 jobs:
